@@ -35,21 +35,23 @@
             // 
             // buttonAdd
             // 
-            this.buttonAdd.Location = new System.Drawing.Point(95, 254);
+            this.buttonAdd.Location = new System.Drawing.Point(135, 254);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(135, 91);
             this.buttonAdd.TabIndex = 0;
             this.buttonAdd.Text = "Add";
             this.buttonAdd.UseVisualStyleBackColor = true;
+            this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // buttonSubtract
             // 
-            this.buttonSubtract.Location = new System.Drawing.Point(371, 271);
+            this.buttonSubtract.Location = new System.Drawing.Point(431, 246);
             this.buttonSubtract.Name = "buttonSubtract";
             this.buttonSubtract.Size = new System.Drawing.Size(133, 99);
             this.buttonSubtract.TabIndex = 1;
             this.buttonSubtract.Text = "subtract";
             this.buttonSubtract.UseVisualStyleBackColor = true;
+            this.buttonSubtract.Click += new System.EventHandler(this.buttonSubtract_Click);
             // 
             // labelSum
             // 
