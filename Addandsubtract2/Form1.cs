@@ -28,13 +28,13 @@ namespace Addandsubtract2
 
         private void buttonAdd_Click(object sender, EventArgs e)
         {
-            sum++;
+            sum += 10;
             labelSum.Text = sum.ToString();
         }
 
         private void buttonSubtract_Click(object sender, EventArgs e)
         {
-            sum--;
+            sum -= 10;
             labelSum.Text = sum.ToString();
         }
     }
